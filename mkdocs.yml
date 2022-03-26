@@ -1,0 +1,28 @@
+site_name: Hexa Writing Style Guide
+
+repo_url: https://github.com/adriancollins/hexa-writing-style-guide
+nav:
+   - 'Home': 'index.md'
+   - 'General Guidelines': 'GeneralGuidelines.md'
+   - 'Word List': 'word-list.md'
+   - 'Writing for UI':
+        - 'Writing for UI': 'WritingForUI.md'
+        - 'UI Writing Guidelines': 'UI.md'
+        - 'Errors and Warnings': 'ErrorsWarnings.md'
+        - 'Components': 'WritingForComponents.md'
+        - 'UI Glossary': 'UIGlossary.md'
+   - 'Writing for your repo':
+        - 'README Guidelines': 'ReadMeGuidelines.md'
+        - 'CONTRIBUTING Guidelines': 'ContributingGuidelines.md'
+        - 'SUPPORT Guidelines': 'SupportGuidelines.md'
+   - 'About': 'about.md'
+
+theme:
+  name: 'material'
+  favicon: '/img/favicon.ico'
+  logo: '/img/favicon.ico'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+extra_css:
+   - 'stylesheets/extra.css'
